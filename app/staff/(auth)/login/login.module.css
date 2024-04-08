@@ -1,0 +1,31 @@
+.wrap {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_login {
+  background-color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 400px;
+  height: auto;
+}
+
+.title {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
